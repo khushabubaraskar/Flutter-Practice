@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './Screen/HomeScreen.dart';
+import './StatefulWidgets/ShowImage.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: homescreen()
+      home: Showimage()
     );
   }
 }
