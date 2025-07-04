@@ -1,5 +1,5 @@
 
-import 'package:demo/NavigationBar/Navigation_Main.dart';
+import 'package:demo/Flutter_Form_Builder/Sign_up.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:NavigationExample(),
+      home:SignUpForm(),
     );
   }
 }
